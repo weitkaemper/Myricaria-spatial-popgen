@@ -1,0 +1,9 @@
+datapath = .
+mcmcpath = chain2
+nIndiv = 85
+nSites = 2183
+nDemes = 400
+diploid = true
+numMCMCiter = 2000000
+numBurnIter = 1000000
+numThinIter = 9999

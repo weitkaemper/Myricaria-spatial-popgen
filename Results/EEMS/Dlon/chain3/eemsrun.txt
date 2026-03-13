@@ -1,0 +1,41 @@
+Input parameter values:
+               datapath = Dlon
+               mcmcpath = chain3
+               prevpath = 
+               gridpath = 
+               distance = euclidean
+                diploid = 1
+                 nIndiv = 16
+                 nSites = 2183
+                 nDemes = 400
+                   seed = 1758911019
+            numMCMCIter = 2000000
+            numBurnIter = 1000000
+            numThinIter = 9999
+              negBiSize = 10
+              negBiProb = 0.670000
+             qVoronoiPr = 0.250000
+             mrateShape = 0.000500
+             qrateShape = 0.002000
+             sigmaShape = 0.001000
+             qrateScale = 0.500000
+             mrateScale = 2.000000
+             sigmaScale = 1.000000
+       mSeedsProposalS2 = 0.010000
+       qSeedsProposalS2 = 0.100000
+       mEffctProposalS2 = 0.100000
+       qEffctProposalS2 = 0.001000
+      mrateMuProposalS2 = 0.010000
+
+Acceptance proportions:
+	(99586/124327) = 80% for proposal type "qTileRate",		 with proposal variance "qEffctProposalS2"
+	(82485/124344) = 66% for proposal type "qTileMove",		 with proposal variance "qSeedsProposalS2"
+	(60232/125274) = 48% for proposal type "qBirthDeath"
+	(318578/376919) = 85% for proposal type "mTileRate",		 with proposal variance "mEffctProposalS2"
+	(191304/249885) = 77% for proposal type "mMeanRate",		 with proposal variance "mrateMuProposalS2"
+	(329494/374896) = 88% for proposal type "mTileMove",		 with proposal variance "mSeedsProposalS2"
+	(156570/374578) = 42% for proposal type "mBirthDeath"
+	(175451/249777) = 70% for proposal type "degrees of freedom"
+
+Final log prior: 134.07
+Final log llike: 356.94
