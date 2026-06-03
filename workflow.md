@@ -1,5 +1,18 @@
 # Spatial population genetics pipeline for target capture sequence data 
+## Prerequisites
+Make sure the required command-line tools and the `R` system are available in a recent version:
+- [`CAPTUS`](https://github.com/edgardomortiz/captus)
+- [`strobealign`](https://github.com/ksahlin/StrobeAlign)
+- [`samtools`](https://github.com/samtools/samtools)
+- [`bcftools`](https://github.com/samtools/bcftools)
+- [`vcftools`](https://github.com/vcftools/vcftools)
+- [`R`](https://www.r-project.org/) 
 
+## Cleaning data using `CAPTUS`
+Clean raw Illumina reads using `CAPTUS` default settings:
+```sh
+captus_assembly clean -r
+```
 
 ## Preparing `CAPTUS` output for analyses: `bash` shell, Box A (Figure 2)
 
